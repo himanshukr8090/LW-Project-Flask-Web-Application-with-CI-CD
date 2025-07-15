@@ -2,9 +2,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/name")
+@app.route("/info")
 def myname():
-    return "My Name Is Himanshu Singh...."
+    return "My Name Is Himanshu Singh....<b>"
 
 @app.route("/education")
 def myeducation():
