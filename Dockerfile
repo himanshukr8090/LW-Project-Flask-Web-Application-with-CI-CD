@@ -1,4 +1,4 @@
-FROM redhat/ubi8:latest
+FROM python:3
 
 RUN yum install python3 -y
 
